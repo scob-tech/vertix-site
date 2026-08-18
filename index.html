@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vertix — a plataforma completa para personal trainers</title>
+<meta name="description" content="Vertix é o sistema web que organiza a rotina do personal trainer: prescrição de treinos, avaliação física, frequência, financeiro e app do aluno em um só lugar.">
+<link rel="canonical" href="https://vertix.scobtech.com.br/">
+<meta name="theme-color" content="#0D1B2A">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vertix">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Vertix — a plataforma completa para personal trainers">
+<meta property="og:description" content="Treino, avaliação física, frequência e financeiro em um só lugar. Com app próprio para o aluno.">
+<meta property="og:url" content="https://vertix.scobtech.com.br/">
+<meta property="og:image" content="https://vertix.scobtech.com.br/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="/en/">
+<link rel="alternate" hreflang="pt-br" href="/">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#top" aria-label="Vertix — início"><img src="assets/logo.svg" alt="Vertix" class="logo" width="111" height="30"></a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div class="nav-links">
+        <a href="#produto">O que é</a>
+        <a href="#telas">Telas</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#privacidade">Privacidade</a>
+        <a href="#contato">Contato</a>
+        <a href="en/" class="nav-lang" hreflang="en">EN</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<!-- ================= HERO ================= -->
+<section class="hero" id="top" style="padding-top:70px">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Gestão para personal trainers</span>
+      <h1>Toda a sua consultoria em um só lugar</h1>
+      <p class="lead">
+        O Vertix organiza a vida do personal trainer: prescrição de treinos, acompanhamento da
+        execução, avaliação física com evolução, frequência, financeiro e comunicação com o aluno —
+        sem planilha solta, sem treino perdido no WhatsApp.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://vertix-production-e18f.up.railway.app/login.html" rel="noopener">Acessar o Vertix</a>
+        <a class="btn btn-ghost" href="#funcionalidades">Ver funcionalidades</a>
+      </div>
+      <p class="muted" style="font-size:.9rem;margin-top:22px;color:#93A8C0">
+        Aplicativo web (PWA) — funciona no navegador e instala no celular.
+      </p>
+    </div>
+
+    <div class="mock" aria-hidden="true">
+      <div class="mock-bar"><span></span><span></span><span></span></div>
+      <div class="mock-title">Painel do treinador · hoje</div>
+      <div class="mock-row"><span><strong>Marina S.</strong> · Treino A — Superiores</span><span class="tag tag-ok">Concluído</span></div>
+      <div class="mock-row"><span><strong>Rafael T.</strong> · Corrida 6 km intervalado</span><span class="tag tag-ok">Concluído</span></div>
+      <div class="mock-row"><span><strong>Juliana M.</strong> · Feedback: "ombro incomodou"</span><span class="tag tag-wait">Responder</span></div>
+      <div class="mock-row"><span><strong>Pedro A.</strong> · 9 dias sem treinar</span><span class="tag tag-wait">Atenção</span></div>
+      <div class="mock-row"><span><strong>Gerador por IA</strong> · Hipertrofia · 4x/semana</span><span class="tag tag-ai">Rascunho</span></div>
+      <div class="mock-row" style="margin-bottom:0"><span><strong>Agenda</strong> · 13h Camila · 14h Bruno · 18h Léo</span><span class="tag tag-ok">3 aulas</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= O QUE É ================= -->
+<section id="produto">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>O que é o Vertix</h2>
+      <p>Um sistema web (SaaS) feito para a rotina real de quem treina gente.</p>
+    </div>
+    <div class="grid grid-2" style="align-items:start">
+      <div>
+        <h3>O problema</h3>
+        <p class="muted">
+          Personal trainers se viram com um amontoado de ferramentas soltas: planilha para montar o treino,
+          WhatsApp para enviar, papel ou app genérico para a avaliação física, e a memória (ou um caderninho)
+          para lembrar quem pagou e quem está sumindo. Isso consome tempo, gera erro e passa uma imagem
+          menos profissional para o aluno.
+        </p>
+      </div>
+      <div>
+        <h3>A solução</h3>
+        <p class="muted">
+          O Vertix reúne tudo num lugar só. O treinador monta treinos rápido, acompanha quem treinou e quem
+          precisa de atenção, registra e compara avaliações físicas, controla frequência e mensalidades, e
+          mantém o aluno engajado com um app próprio. Menos trabalho operacional, mais tempo para treinar
+          gente — e uma experiência mais profissional para o aluno.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid grid-2" style="margin-top:44px">
+      <div class="card">
+        <h3>O aluno tem acesso próprio</h3>
+        <p>Ele se cadastra com um código de convite seu, recebe os treinos, marca o que fez e envia feedback.</p>
+      </div>
+      <div class="card">
+        <h3>Feito para o celular</h3>
+        <p>PWA responsivo, instalável na tela inicial e com notificações push — porque o trabalho acontece no telefone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TELAS ================= -->
+<section class="sec-light sec-telas" id="telas">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Por dentro do Vertix</h2>
+      <p>Os dois lados do sistema: o painel que você usa e o app que o seu aluno recebe.</p>
+    </div>
+
+    <h3 class="telas-grupo">O que o treinador vê</h3>
+    <div class="telas">
+      <div class="tela">
+        <figure>
+          <div class="phone"><img src="assets/tela-painel.png" alt="Painel do treinador no Vertix com alunos ativos, quem precisa de atenção e as aulas do dia" width="900" height="1834" loading="lazy"></div>
+          <figcaption>
+            <h3>O dia inteiro numa tela</h3>
+            <p>Quantos alunos ativos, quem está em risco, quem precisa de atenção e os horários de hoje.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="tela">
+        <figure>
+          <div class="phone"><img src="assets/tela-treino.png" alt="Editor de treino do Vertix com lista de exercícios, séries, cargas e o botão de gerar treino com IA" width="900" height="1834" loading="lazy"></div>
+          <figcaption>
+            <h3>Montar treino em minutos</h3>
+            <p>Exercício por exercício, com séries, carga e descanso — ou deixe a IA fazer o rascunho.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="tela">
+        <figure>
+          <div class="phone"><img src="assets/tela-financeiro.png" alt="Painel financeiro do Vertix com recebido no mês, valores a cobrar, atrasados e adesão por aluno" width="900" height="1834" loading="lazy"></div>
+          <figcaption>
+            <h3>Quem pagou, quem treinou</h3>
+            <p>Recebido no mês, o que está a cobrar, o que atrasou — e a adesão de cada aluno na semana.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <h3 class="telas-grupo">O que o aluno recebe</h3>
+    <div class="telas">
+      <div class="tela">
+        <figure>
+          <div class="phone"><img src="assets/tela-aluno-semana.png" alt="App do aluno no Vertix mostrando a semana de treinos, com musculação e corrida por dia" width="900" height="1834" loading="lazy"></div>
+          <figcaption>
+            <h3>A semana inteira na mão</h3>
+            <p>O aluno abre e vê o que tem para fazer em cada dia, e o que já concluiu.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="tela">
+        <figure>
+          <div class="phone"><img src="assets/tela-aluno-treino.png" alt="Treino do dia no app do aluno, com séries, orientações do treinador e vídeo de cada exercício" width="900" height="1834" loading="lazy"></div>
+          <figcaption>
+            <h3>Cada exercício com vídeo</h3>
+            <p>Séries, descanso, a orientação que você escreveu e o vídeo para conferir a técnica na hora.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="tela">
+        <figure>
+          <div class="phone"><img src="assets/tela-aluno-series.png" alt="Aluno registrando repetições e carga de cada série no app do Vertix" width="900" height="1834" loading="lazy"></div>
+          <figcaption>
+            <h3>Ele registra o que fez</h3>
+            <p>Repetições e carga série a série. O que ele preenche volta para você, sem precisar perguntar.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <p class="telas-nota">
+      Telas do Vertix com dados de demonstração: todos os nomes e números são <strong>fictícios</strong>.
+      Nenhum dado de aluno real é exibido publicamente.
+    </p>
+  </div>
+</section>
+
+<!-- ================= FUNCIONALIDADES ================= -->
+<section id="funcionalidades">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Funcionalidades</h2>
+      <p>Todos os módulos que o dia a dia da consultoria exige — do primeiro treino à mensalidade.</p>
+    </div>
+
+    <div class="grid grid-3">
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg></div>
+        <h3>Prescrição de treinos</h3>
+        <p>Calendário semanal por aluno, navegável. Musculação, corrida, bike, natação e mobilidade — cada uma com o formato certo.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3v8H4zM17 8h3v8h-3zM7 12h10M2 10v4M22 10v4"/></svg></div>
+        <h3>Montador de exercícios</h3>
+        <p>Cartões com séries, repetições, carga, descanso, observações e vídeo do YouTube. Corrida e bike em blocos estruturados ou modo simples.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div>
+        <h3>Biblioteca e banco de exercícios</h3>
+        <p>Modelos de treino organizados em pastas para reaproveitar, e um banco de exercícios com vídeos por grupo muscular — que você pode ampliar.</p>
+      </article>
+
+      <article class="card card-ai">
+        <span class="badge-ai">Inteligência artificial</span>
+        <div class="icon icon-ai"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3.4"/></svg></div>
+        <h3>Gerador de treino por IA</h3>
+        <p>Informe sexo, idade, peso, altura, objetivo, nível, foco, dias por semana, equipamentos e restrições — a IA monta o treino seguindo um protocolo de segurança e explica o porquê de cada sessão. Você revisa e edita antes de salvar.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-5 4 3 5-7 4 4"/><path d="M3 21h18"/></svg></div>
+        <h3>Inteligência de treino</h3>
+        <p>Cálculo de 1RM e intensidade pela fórmula de Brzycki — mais conservadora e validada — além do volume (séries × reps × carga).</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11l2.5 2.5L16 8"/><path d="M20 12a8 8 0 1 1-8-8"/></svg></div>
+        <h3>Acompanhamento da execução</h3>
+        <p>Conduza o treino junto do aluno, tique exercício por exercício e registre as cargas realizadas na hora.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18.5h2"/></svg></div>
+        <h3>App do aluno</h3>
+        <p>Ele vê os treinos do dia, assiste aos vídeos, marca como concluído e envia feedback com esforço percebido (RPE) e comentário.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s-8-4.6-8-11a8 8 0 1 1 16 0c0 6.4-8 11-8 11z"/><circle cx="12" cy="11" r="2.6"/></svg></div>
+        <h3>Radar de atenção</h3>
+        <p>Destaca sozinho quem está sem treinar, quem relatou dor ou desconforto e quem tem feedback esperando resposta.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-8M22 20h-20"/></svg></div>
+        <h3>Avaliação física e evolução</h3>
+        <p>Peso, dobras cutâneas, circunferências, % de gordura, massa magra, IMC, RCQ e fotos. Compare avaliações em gráficos e tabela para ver a evolução de cada medida.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+        <h3>Frequência e agenda</h3>
+        <p>Calendário de presença por aluno e contagem de aulas entre pagamentos, útil para pacotes. A agenda mostra os horários do dia: "13h Fulano · 14h Ciclano".</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2.5"/><path d="M2 10.5h20M6 15h4"/></svg></div>
+        <h3>Financeiro</h3>
+        <p>Mensalidades e pacotes, cobranças e pagamentos, com visão do recebido no mês — e a opção de ocultar o valor por privacidade.</p>
+      </article>
+
+      <article class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.5L3 20.5l1.6-5.5A8.4 8.4 0 1 1 21 11.5z"/></svg></div>
+        <h3>Comunicação e periodização</h3>
+        <p>Fale com o aluno no WhatsApp em um toque e defina fases da semana e planos de periodização, com aviso automático para ele.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section id="como-funciona">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Como funciona</h2>
+      <p>Dois fluxos simples: um para você, outro para o seu aluno.</p>
+    </div>
+
+    <div class="flow">
+      <div class="flow-col">
+        <h3>Para o treinador</h3>
+        <div class="step"><div class="step-n">1</div><p><strong>Crie sua conta</strong> Cadastro rápido, com seus dados e seus alunos organizados desde o primeiro dia.</p></div>
+        <div class="step"><div class="step-n">2</div><p><strong>Cadastre os alunos</strong> Adicione você mesmo ou envie o código/link de convite para o aluno se cadastrar sozinho.</p></div>
+        <div class="step"><div class="step-n">3</div><p><strong>Monte os treinos</strong> Manualmente, reaproveitando um modelo da biblioteca ou com o gerador por IA — sempre com você revisando.</p></div>
+        <div class="step"><div class="step-n">4</div><p><strong>Acompanhe pelo painel</strong> Veja quem treinou hoje, quem precisa de atenção, quais feedbacks aguardam resposta e quem deve pagar.</p></div>
+        <div class="step"><div class="step-n">5</div><p><strong>Meça e converse</strong> Registre avaliações físicas, compare a evolução em gráficos e fale com o aluno em um toque.</p></div>
+      </div>
+
+      <div class="flow-col">
+        <h3>Para o aluno</h3>
+        <div class="step"><div class="step-n">1</div><p><strong>Receba o convite</strong> Com o código do seu treinador, você cria sua conta em minutos.</p></div>
+        <div class="step"><div class="step-n">2</div><p><strong>Veja o treino do dia</strong> Abra o app e encontre exatamente o que fazer, com séries, cargas e descanso.</p></div>
+        <div class="step"><div class="step-n">3</div><p><strong>Assista e execute</strong> Cada exercício traz o vídeo para você conferir a técnica antes de fazer.</p></div>
+        <div class="step"><div class="step-n">4</div><p><strong>Marque e dê feedback</strong> Conclua o treino e conte como foi: esforço percebido e um comentário para o treinador.</p></div>
+        <div class="step"><div class="step-n">5</div><p><strong>Veja sua evolução</strong> Acompanhe suas avaliações físicas e o progresso ao longo do tempo.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRIVACIDADE ================= -->
+<section class="sec-light" id="privacidade">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Privacidade e segurança</h2>
+      <p>Dados de treino e de saúde são sensíveis. Tratamos assim.</p>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2.5"/><path d="M8 10V7.5a4 4 0 0 1 8 0V10"/></svg></div>
+        <h3>Consentimento sempre</h3>
+        <p>Nenhuma conexão externa é ativada sem autorização explícita do titular — e ela pode ser desfeita quando ele quiser.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.4 8.2-8 9.5C7.4 20.2 4 17 4 12V7z"/></svg></div>
+        <h3>Nunca vendemos dados</h3>
+        <p>Seus dados e os dos seus alunos não são vendidos nem usados para publicidade. Ponto.</p>
+      </div>
+    </div>
+
+    <div class="center" style="margin-top:40px">
+      <div class="btn-row" style="justify-content:center">
+        <a class="btn btn-primary" href="privacidade.html">Política de Privacidade</a>
+        <a class="btn" style="background:#fff;border-color:var(--border);color:var(--text)" href="termos.html">Termos de Uso</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section id="contato">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:36px">
+      <h2>Fale com a gente</h2>
+      <p>Dúvidas sobre o produto, parcerias ou solicitações relacionadas aos seus dados.</p>
+    </div>
+    <div class="contact-box">
+      <div class="contact-grid">
+        <a class="ctt" href="mailto:silvio@scobtech.com.br">
+          <span class="ctt-ic ctt-mail" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="2.6"/><path d="M3 6.5l9 6.4 9-6.4"/></svg>
+          </span>
+          <span class="ctt-txt">
+            <span class="ctt-lbl">E-mail</span>
+            <span class="ctt-val">silvio@scobtech.com.br</span>
+          </span>
+        </a>
+
+        <a class="ctt" href="https://wa.me/5511939130859" rel="noopener">
+          <span class="ctt-ic ctt-zap" aria-hidden="true">
+            <svg viewBox="0 0 24 24" class="ic-solid"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.17c-.25-.13-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.84-.2-.49-.4-.42-.55-.43l-.47-.01c-.16 0-.43.06-.65.31-.22.25-.86.84-.86 2.04s.88 2.37 1 2.53c.12.16 1.73 2.64 4.19 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+          </span>
+          <span class="ctt-txt">
+            <span class="ctt-lbl">WhatsApp</span>
+            <span class="ctt-val">+55 11 93913-0859</span>
+          </span>
+        </a>
+      </div>
+      <hr style="border:0;border-top:1px solid var(--border);margin:28px 0 22px">
+      <p class="muted" style="margin:0;font-size:.95rem">
+        Responsável: <strong>Silvio Arruda</strong> · CNPJ 29.604.613/0001-10<br>
+        São Paulo/SP · Brasil
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/logo.svg" alt="Vertix" class="logo" width="104" height="28">
+        <p>A plataforma que organiza a rotina do personal trainer — treino, avaliação, frequência e financeiro em um só lugar.</p>
+      </div>
+      <div>
+        <h4>Produto</h4>
+        <ul class="footer-list">
+          <li><a href="#produto">O que é o Vertix</a></li>
+          <li><a href="#telas">Telas do app</a></li>
+          <li><a href="#funcionalidades">Funcionalidades</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="https://vertix-production-e18f.up.railway.app/login.html" rel="noopener">Acessar o app</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal &amp; contato</h4>
+        <ul class="footer-list">
+          <li><a href="privacidade.html">Política de Privacidade</a></li>
+          <li><a href="termos.html">Termos de Uso</a></li>
+          <li><a href="mailto:silvio@scobtech.com.br">silvio@scobtech.com.br</a></li>
+          <li><a href="https://wa.me/5511939130859" rel="noopener">+55 11 93913-0859</a></li>
+          <li><a href="en/" hreflang="en">English version</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Vertix · Silvio Arruda</span>
+      <span>São Paulo/SP · Brasil</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 100" width="126" height="100" role="img" aria-label="Vertix">
+  <title>Vertix</title>
+  <defs>
+    <linearGradient id="fUL" x1=".1" y1="0" x2=".75" y2="1">
+      <stop offset="0" stop-color="#CBE1F7"/><stop offset="1" stop-color="#77AEE9"/>
+    </linearGradient>
+    <linearGradient id="fLL" x1="0" y1="0" x2=".6" y2="1">
+      <stop offset="0" stop-color="#3163F2"/><stop offset="1" stop-color="#1C3FD4"/>
+    </linearGradient>
+    <linearGradient id="fUR" x1=".1" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#33BCFF"/><stop offset="1" stop-color="#0E97FA"/>
+    </linearGradient>
+    <linearGradient id="fLR" x1=".85" y1="0" x2=".2" y2="1">
+      <stop offset="0" stop-color="#2288FA"/><stop offset="1" stop-color="#1652DC"/>
+    </linearGradient>
+  </defs>
+    <polygon points="0.00,0.00 45.00,15.00 63.50,52.00" fill="url(#fUL)"/>
+    <polygon points="0.00,0.00 63.50,52.00 63.50,100.00" fill="url(#fLL)"/>
+    <polygon points="63.50,52.00 84.00,15.00 126.00,0.00" fill="url(#fUR)"/>
+    <polygon points="63.50,52.00 126.00,0.00 63.50,100.00" fill="url(#fLR)"/>
+</svg>
